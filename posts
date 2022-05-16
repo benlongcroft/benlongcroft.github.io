@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ben Longcroft</title>
+    <link rel="stylesheet" href="../static/Stylesheet.css" />
+    <script src="https://kit.fontawesome.com/1d37e9a95d.js" crossorigin="anonymous"></script>
+</head>
+        <nav>
+
+            
+              <div class="navbar-default">
+                    <a href=/ class="navbar-item">
+                       Home
+                    </a>
+                    <a href=/posts class="navbar-item">
+                        Projects
+                    </a>
+                    <a href=/aboutme class="navbar-item">
+                        About Me
+                    </a>
+            </div>
+            
+        </nav>
+        <div class="main">
+            
+        <body>
+            <h3>Project Logs</h3>
+            <br>
+            <div class="gallery_wrapper">
+                
+                    <a style="text-decoration: none" href=/projects/new-website>
+                        <article class="gal_item">
+                            <h1 class="project-title-box">Exciting New Website</h1>
+                            <p class="desc">
+                                <br>
+                                <small>Monday, 16 May, 2022</small>
+                                <br>
+                                A small introduction to this new website, it&#39;s purpose and content
+                                <br>
+                            </p>
+                        </article>
+                    </a>
+                
+                    <a style="text-decoration: none" href=/projects/biocomputing-evo>
+                        <article class="gal_item">
+                            <h1 class="project-title-box">Abstract Art through Evolution</h1>
+                            <p class="desc">
+                                <br>
+                                <small>Wednesday, 04 May, 2022</small>
+                                <br>
+                                Using EVOL to develop polygon based abstract art
+                                <br>
+                            </p>
+                        </article>
+                    </a>
+                
+                    <a style="text-decoration: none" href=/projects/sonnysforest>
+                        <article class="gal_item">
+                            <h1 class="project-title-box">Sonnys Forest</h1>
+                            <p class="desc">
+                                <br>
+                                <small>Friday, 21 January, 2022</small>
+                                <br>
+                                2D Unity Game educating on the dangers of climate change.
+                                <br>
+                            </p>
+                        </article>
+                    </a>
+                
+                    <a style="text-decoration: none" href=/projects/nitely-update>
+                        <article class="gal_item">
+                            <h1 class="project-title-box">Nitely Update</h1>
+                            <p class="desc">
+                                <br>
+                                <small>Sunday, 12 December, 2021</small>
+                                <br>
+                                An update on a longstanding project that won&#39;t be progressing.
+                                <br>
+                            </p>
+                        </article>
+                    </a>
+                
+                    <a style="text-decoration: none" href=/projects/GameofDNA>
+                        <article class="gal_item">
+                            <h1 class="project-title-box">Cellular Automata and Genetics</h1>
+                            <p class="desc">
+                                <br>
+                                <small>Thursday, 18 November, 2021</small>
+                                <br>
+                                Conways Game of Life paired with a genetic algorithm, produces irreducible complexity with evolution.
+                                <br>
+                            </p>
+                        </article>
+                    </a>
+                
+                    <a style="text-decoration: none" href=/projects/fractal-renderer>
+                        <article class="gal_item">
+                            <h1 class="project-title-box">Fractal Rendering Engine</h1>
+                            <p class="desc">
+                                <br>
+                                <small>Wednesday, 15 September, 2021</small>
+                                <br>
+                                A small project developed for fun playing with Mandelbrot set visualisations.
+                                <br>
+                            </p>
+                        </article>
+                    </a>
+                
+            </div>
+        </body>
+
+        </div>
+        
+        <div class="footer-other">
+            <p class="caption" style="color: #F5F1ED"> &copy; <a href="https://github.com/benlongcroft" style="color: #F5F1ED">Benjamin Longcroft </a></p>
+        </div>
+        
+
+
+</html>

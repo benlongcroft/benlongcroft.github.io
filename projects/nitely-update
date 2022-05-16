@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ben Longcroft</title>
+    <link rel="stylesheet" href="../static/Stylesheet.css" />
+    <script src="https://kit.fontawesome.com/1d37e9a95d.js" crossorigin="anonymous"></script>
+</head>
+        <nav>
+
+            
+              <div class="navbar-default">
+                    <a href=/ class="navbar-item">
+                       Home
+                    </a>
+                    <a href=/posts class="navbar-item">
+                        Projects
+                    </a>
+                    <a href=/aboutme class="navbar-item">
+                        About Me
+                    </a>
+            </div>
+            
+        </nav>
+        <div class="main">
+            
+<div class="project-title">
+<h1 class="project-title"> Nitely Update</h1>
+<p class="more-info">An update on a longstanding project that won&#39;t be progressing.</p>
+<br>
+<p class="more-info"> Published on Sunday, 12 December, 2021</p>
+</div>
+
+<div class="blog-safe">
+    <p>Nitely started as a project to pass some time during lockdown and it really snowballed and turned into something that taught me a lot of important lessons and skills. The concept was to produce a machine learning based tool that could recommend nights out, not simply a single venue but multiple venues over the course of an evening to build a whole 'night out'. I started it in lockdown after hearing about how much trouble the hospitality industry would be in post-covid and I thought that it might help, as well as providing an interesting project to fill my time. </p>
+<p><img src="../../static/blog-images/NITELY.jpg" alt="drawing" width="400"/></p>
+<p>It utilised NLP with spaCy, Google Places API as well as an eclectic set of data sources that allowed me to process data on a nightclubs, bars and restaurants in Newcastle. This data was difficult to find initially and even more of a pain to wrangle into a common format however, once I did - I could use the NLP powers of spaCy to parse for keywords, themes and other data to process. This helped build dictionaries of words with spatial mappings to the nightclub entities. </p>
+<p>Each club was represented via a multidimensional vector (300) that could be mapped spatially other venues to look for similarities. This was through an algorithm called K2K which I devised and uses keyword mapping and dimensionality reduction to produce these vectors, store them and compare them against user vectors - generated from user preferences and choices while using NITELY. This was paired with shortest path heuristics to ensure that venues were not only similar in atmosphere, but also in distance. </p>
+<p><img src="../../static/blog-images/nitely_1.png" alt="drawing" width="400"/></p>
+<p>This was all great at first, however I soon ran into some heavy processing costs in order to run this on a large scale as well as API costs and server hire which prevented this project from progressing any further. This was a blow but I think by this point I needed a break from NITELY too, I had been working on it for well over a year and it was good to step back and take some time to think about other projects (especially those with <em>some</em> financial incentive!) </p>
+<p>All the code is available to see on GitHub <a href="https://github.com/benlongcroft/Nitely-Code-Base">here</a> and if you feel you have any ideas or changes please don't hesitate to let me know! It's a project I may come back to for a complete rethink in the future, but one that for the moment needs to sit for a while so I can reconsider the important aspects and maybe build some capital to run it in a cost-efficient way. </p>
+</div>
+
+        </div>
+        
+        <div class="footer-other">
+            <p class="caption" style="color: #F5F1ED"> &copy; <a href="https://github.com/benlongcroft" style="color: #F5F1ED">Benjamin Longcroft </a></p>
+        </div>
+        
+
+
+</html>

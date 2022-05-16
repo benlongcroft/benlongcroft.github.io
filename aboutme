@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ben Longcroft</title>
+    <link rel="stylesheet" href="../static/Stylesheet.css" />
+    <script src="https://kit.fontawesome.com/1d37e9a95d.js" crossorigin="anonymous"></script>
+</head>
+        <nav>
+
+            
+              <div class="navbar-default">
+                    <a href=/ class="navbar-item">
+                       Home
+                    </a>
+                    <a href=/posts class="navbar-item">
+                        Projects
+                    </a>
+                    <a href=/aboutme class="navbar-item">
+                        About Me
+                    </a>
+            </div>
+            
+        </nav>
+        <div class="main">
+            
+<body>
+<div class="about-me">
+    <h3>About Me</h3>
+    Hi there, I’m a Newcastle University student studying computer science. I’ve been programming since 2014 with a strong background in Python as well as Java, C#, C and HTML/CSS since starting my degree. I’ve always enjoyed programming and have completed a variety of personal projects that are available to see on my Github or here on the projects page. I’m always looking to expand my programming skills within a professional environment and improve my skills in the workplace. I’m always looking for more freelance and contract work and I'm interested in full time positions too. Since the pandemic, I have started running my own tutoring business where I have tutored 5 different clients in Python programming for the last two years.
+    <figure>
+        <img class="me-img" src="../static/me.jpeg" height=300px width="auto">
+    </figure>
+    <br>
+    <br>
+    Some of my favourite projects have utilised frameworks like Flask, PIL, Evol, spaCy alongside datascience libraries such as Numpy, Pandas and matplotlib. I'm open to learning new frameworks and I'm confident in my ability to pick-up new frameworks and languages quickly. I'm a self-starter who links to take the initiative and get started. I try ensure I properly plan and design before starting projects, but I often find that getting stuck in and experimenting is the best way for me to learn! Please enjoy this lovely new website and have a look around some of the cool projects I've been working on these past few years!
+    <br>
+    <br>
+</div>
+</body>
+
+        </div>
+        
+        <div class="footer-other">
+            <p class="caption" style="color: #F5F1ED"> &copy; <a href="https://github.com/benlongcroft" style="color: #F5F1ED">Benjamin Longcroft </a></p>
+        </div>
+        
+
+
+</html>

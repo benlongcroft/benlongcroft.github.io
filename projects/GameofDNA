@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ben Longcroft</title>
+    <link rel="stylesheet" href="../static/Stylesheet.css" />
+    <script src="https://kit.fontawesome.com/1d37e9a95d.js" crossorigin="anonymous"></script>
+</head>
+        <nav>
+
+            
+              <div class="navbar-default">
+                    <a href=/ class="navbar-item">
+                       Home
+                    </a>
+                    <a href=/posts class="navbar-item">
+                        Projects
+                    </a>
+                    <a href=/aboutme class="navbar-item">
+                        About Me
+                    </a>
+            </div>
+            
+        </nav>
+        <div class="main">
+            
+<div class="project-title">
+<h1 class="project-title"> Cellular Automata and Genetics</h1>
+<p class="more-info">Conways Game of Life paired with a genetic algorithm, produces irreducible complexity with evolution.</p>
+<br>
+<p class="more-info"> Published on Thursday, 18 November, 2021</p>
+</div>
+
+<div class="blog-safe">
+    <p><a href="https://github.com/benlongcroft/GameOfDNA">Github Here</a></p>
+<p>This project spawned off me becoming more and more interested with cellular automata and concept of irreducible complexity. It then became an artefact for an interview 'show and tell' and formed the basis of a presentation I gave on Cellular Automata and the secret to artificial life. </p>
+<p><img src="../../static/blog-images/pres_cover.png" alt="drawing" width="400"/></p>
+<p>I started by building a simple version of Conways Game of Life using Java AWT. I found this relatively interesting to start with and was playing around with various starting configurations. After a few conversations with others about it, the question was provoked of how this could be played with? I was interested with evolutionary algorithms and recalled a friend playing with the ant pheromone algorithm to solve Travelling Salesman problems. From this, the idea spawned to assign genetic information to each cell.</p>
+<p>This was done via a class that contained colour values for each cell. The rules were similar to Conways game of life in that:</p>
+<ol>
+<li>If a live cell has more than 3 neighbours, it will die</li>
+<li>If a live cell has less than 2 neighbours, it will die</li>
+<li>If a live cell has exactly 3 neighbours,<ul>
+<li>Find a nearby cell that is 'similar' </li>
+<li>That mate finds a suitable location for the child (empty cell with 3 neighbours)</li>
+<li>Insert child into location with half of each parents genome</li>
+</ul>
+</li>
+</ol>
+<p>This process had some interesting variables. The criteria for choosing a mate produced some different results. Choosing a similar mate resulted in one indeterminable colour group from dominating. Choosing the most opposite mate (those with the most differing colour value) resulted in a deadlock. Using the midpoint of each parents genome or 50% of either parents genome also resulted in interesting phenomena, Using the midpoint converged on a single colour group much faster than using 50% of either.</p>
+<p>While this was an interesting project to play around with, and while there is certainly more that could be done and experimented with, it was difficult to produce results that didn't simply converge on one random colour group. There was no selective pressure other than achieving as much grid space as possible which seemed to provide the cells with this exact aim, without such an aim ever having being programmed. That, for me was the most interesting phenomena of this project. </p>
+</div>
+
+        </div>
+        
+        <div class="footer-other">
+            <p class="caption" style="color: #F5F1ED"> &copy; <a href="https://github.com/benlongcroft" style="color: #F5F1ED">Benjamin Longcroft </a></p>
+        </div>
+        
+
+
+</html>
